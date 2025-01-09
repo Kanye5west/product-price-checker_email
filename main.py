@@ -28,7 +28,7 @@ if product_price < 100:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs="drteves5@gmail.com",
+                            to_addrs="end email acc",
                             msg=f"Subject:Price Checker!\n\n The price of the Rice cooker is now ${product_price}!"
                                 f" Get Yours now!")
 else:
